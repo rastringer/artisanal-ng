@@ -1,18 +1,20 @@
-
+<!-- Container for images -->
 <div id="videos" style="text-align: center" class="container-fluid">
 	<div class="row">
     <div infinite-scroll="myPagingFunction()" infinite-scroll-distance="3">
   	<div ng-repeat="videoItem in video.videoItems">
-			<div class="clearfix" ng-if="$index % 2 == 0" class="row">
+			<div class="clearfix" ng-if="$index % 3 == 0" class="row">
 			</div>
-	      	<div class="col-xs-12 col-sm-12 col-md-6">
+      <!-- Thumbnails -->
+	      	<div class="col-xs-12 col-sm-12 col-md-4">
 	        	<div class="thumbnail" data-category="{{videoItem.data_category}}">
               <a href="" data-toggle="modal" data-target="#videoModal{{videoItem.modalId}}" data-theVideo={{videoItem.link}}>
                 <img id="{{videoItem.category}}" class="videoItem_image" ng-src="images/{{videoItem.img}}">
+                <!-- Captions for artist/title -->
                 <div class="caption post-content"></a>
 	          			<p>{{videoItem.artist}}</p>
 	            		<p>{{videoItem.title}}</p>
-
+                  <!-- Modal links to bind modal Id -->
 	                	<a href="#" data-toggle="modal" data-target="#videoModal{{videoItem.modalId}}" class="btn btn-danger" rel="tooltip" data-theVideo={{videoItem.link}}>
                     <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
                     </a>
@@ -20,7 +22,7 @@
               </div>
 	    	  </div>
 
-
+<!-- Bootstrap modal for all videos -->
 <div class="modal fade" id="videoModal{{videoItem.modalId}}" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
