@@ -181,21 +181,27 @@ a {
 }
 
 /* full-size nav screen for mobile*/
-@media only screen and (max-width : 736px) {
+@media only screen and (max-width : 560px) {
   .navbar-collapse {
     text-align: center;
+    height:300px;
     min-height: 500px;
     background-color: #ffffff;
    color: #333333;
-   font-size: 1.8em;
+   font-size: 2em;
   }
   .navbar .nav >li > a {
   line-height: 40px;
  }
-
+   .navbar-brand {
+  max-height: 40px;
+  max-width: 120px;
+  padding-top: 12px;
+ }
 }
 
-@media only screen and (min-width : 736px) {
+/* Smaller nav view to accomodate horizontal for iPhone 5*/
+@media only screen and (min-width : 568px) {
  .navbar-brand {
   max-height: 40px;
   max-width: 120px;
@@ -203,10 +209,15 @@ a {
  }
 
  .navbar-collapse {
-  font-size: 1.2em;
+  text-align: center;
+  height:300px;
+  min-height: 500px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 1em;
  }
  .navbar .nav >li > a {
-  line-height: 20px;
+  line-height: 10px;
  }
 
  body {
