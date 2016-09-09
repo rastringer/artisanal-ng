@@ -181,33 +181,34 @@ a {
 }
 
 /* full-size nav screen for mobile*/
-@media only screen and (max-width : 740px) {
+@media only screen and (max-width : 736px) {
   .navbar-collapse {
     text-align: center;
     min-height: 500px;
     background-color: #ffffff;
    color: #333333;
-   font-size: 1em;
+   font-size: 1.8em;
   }
-  .navbar-collapse > li {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
+  .navbar .nav >li > a {
+  line-height: 40px;
+ }
 
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (min-width : 736px) {
  .navbar-brand {
   max-height: 40px;
   max-width: 120px;
   padding-top: 12px;
-
-
  }
 
+ .navbar-collapse {
+  font-size: 1.2em;
+ }
  .navbar .nav >li > a {
-  line-height: 30px;
+  line-height: 20px;
  }
+
  body {
   padding-top: 100px;
  }
