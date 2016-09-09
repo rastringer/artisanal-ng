@@ -181,38 +181,38 @@ a {
 }
 
 /* full-size nav screen for mobile*/
-@media only screen and (max-width : 560px) {
+@media only screen and (max-width : 568px) {
   .navbar-collapse {
     text-align: center;
     height:300px;
     min-height: 500px;
     background-color: #ffffff;
-   color: #333333;
-   font-size: 2em;
+    color: #333333;
+    font-size: 2em;
   }
   .navbar .nav >li > a {
-  line-height: 40px;
+    line-height: 40px;
  }
-   .navbar-brand {
-  max-height: 40px;
-  max-width: 120px;
-  padding-top: 12px;
- }
+  .navbar-brand {
+    max-height: 40px;
+    max-width: 120px;
+    padding-top: 12px;
+   }
 }
 
 /* Smaller nav view to accomodate horizontal for iPhone 5*/
-@media only screen and (min-width : 568px) {
+@media only screen and (min-width : 568px) and (max-width : 768px) {
  .navbar-brand {
-  max-height: 40px;
-  max-width: 120px;
-  padding-top: 12px;
+    max-height: 40px;
+    max-width: 120px;
+    padding-top: 12px;
  }
 
  .navbar-collapse {
-  text-align: center;
-  background-color: #ffffff;
-  color: #333333;
-  font-size: 1em;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 1em;
  }
  .navbar .nav >li > a {
   line-height: 10px;
@@ -222,5 +222,6 @@ a {
   padding-top: 100px;
  }
  }
+
 
 
