@@ -10,7 +10,7 @@
  * Main module of the application.
  */
 angular
-  .module('artisanalTelevisionApp', ["ui.router"])
+  .module('artisanalTelevisionApp', ["ui.router", "infinite-scroll"])
   	.config(['$stateProvider', '$urlRouterProvider', '$sceDelegateProvider', function($stateProvider, $urlRouterProvider, $sceDelegateProvider) {
   		$urlRouterProvider.otherwise('/');
   		$sceDelegateProvider.resourceUrlWhitelist(['**']);
