@@ -45,14 +45,6 @@ angular.module('artisanalTelevisionApp')
   },
   {
     "category": "film",
-    "artist": "48 Hours",
-    "title": "Producer/Editor",
-    "modalId": 32,
-    "img": "perilous_journey.png",
-    "link": "https://www.youtube.com/embed/uXG83ma3bCQ?VQ=HD720"
-  },
-  {
-    "category": "film",
     "artist": "As Far As The Eye Can See",
     "title": "Director",
     "modalId": 33,
@@ -272,6 +264,14 @@ angular.module('artisanalTelevisionApp')
     "img": "etsy.png",
     "link": "https://www.youtube.com/embed/KEympfTr1pI"
 
+  },
+  {
+    "category": "hire",
+    "artist": "48 Hours",
+    "title": "Producer/Editor",
+    "modalId": 32,
+    "img": "perilous_journey.png",
+    "link": "https://www.youtube.com/embed/uXG83ma3bCQ?VQ=HD720"
   },
    {
     "category": "hire",
