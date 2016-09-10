@@ -12,29 +12,60 @@ angular.module('artisanalTelevisionApp')
     this.videoItems = [
     {
     "category": "reels",
-    "category": "",
-    "artist": "",
-    "title": "Director Reel",
+    "artist": "Director",
+    "title": "Reel",
     "modalId": 1,
     "img": "directors_reel.png",
     "link": "https://player.vimeo.com/video/30290109?title=0&byline=0&portrait=0"
   },
   {
     "category": "reels",
-    "artist": "",
-    "title": "Producer/Editor Reel",
+    "artist": "Producer/Editor",
+    "title": "Reel",
     "modalId": 2,
     "img": "producer_editor.png",
     "link": "https://player.vimeo.com/video/107299737?title=0&byline=0&portrait=0"
   },
   {
     "category": "reels",
-    "artist": "",
-    "title": "Motion Design Reel",
+    "artist": "Motion Design",
+    "title": "Reel",
     "modalId": 3,
     "img": "graphics_reel.png",
     "link": "https://player.vimeo.com/video/104203316?title=0&byline=0&portrait=0"
 
+  },
+  {
+    "category": "film",
+    "artist": "The Condemned",
+    "title": "Editor",
+    "modalId": 31,
+    "img": "the_condemned.png",
+    "link": "https://www.youtube.com/embed/7ULZaG9O338?VQ=HD720"
+  },
+  {
+    "category": "film",
+    "artist": "48 Hours",
+    "title": "Producer/Editor",
+    "modalId": 32,
+    "img": "perilous_journey.png",
+    "link": "https://www.youtube.com/embed/uXG83ma3bCQ?VQ=HD720"
+  },
+  {
+    "category": "film",
+    "artist": "As Far As The Eye Can See",
+    "title": "Director",
+    "modalId": 33,
+    "img": "as_far.png",
+    "link": "https://player.vimeo.com/video/147205302?title=0&byline=0&portrait=0"
+  },
+  {
+    "category": "film",
+    "artist": "Anybody",
+    "title": "Director",
+    "modalId": 34,
+    "img": "anybody.png",
+    "link": "https://player.vimeo.com/video/79636907?title=0&byline=0&portrait=0"
   },
   {
     "category": "music",
@@ -84,7 +115,7 @@ angular.module('artisanalTelevisionApp')
   {
     "category": "music",
     "artist": "Black Taxi",
-    "title": "Up Here For Thinking, Down There For Dancing",
+    "title": "Up Here For Thinking",
     "modalId": 9,
     "img": "up_here.png",
     "link": "https://www.youtube.com/embed/beIdC1SHgZo"
@@ -120,7 +151,7 @@ angular.module('artisanalTelevisionApp')
   {
     "category": "music",
     "artist": "Pet Ghost Project",
-    "title": "They Built a City in my Country Mind",
+    "title": "They Built a City",
     "modalId": 13,
     "img": "pet_ghost.png",
     "link": "https://www.youtube.com/embed/UdKMDzJGpcI?rel=0?VQ=HD720"
@@ -235,14 +266,14 @@ angular.module('artisanalTelevisionApp')
   },
   {
     "category": "commercial",
-    "artist": "Grow Your Own Etsy",
+    "artist": "Etsy",
     "title": "Grow Your Own Etsy",
     "modalId": 25,
     "img": "etsy.png",
     "link": "https://www.youtube.com/embed/KEympfTr1pI"
 
   },
-  {
+   {
     "category": "hire",
     "artist": "Gatesnotes",
     "title": "Editing, Animation",
@@ -287,36 +318,5 @@ angular.module('artisanalTelevisionApp')
     "link": "https://www.youtube.com/embed/JNXxieXDmFQ?VQ=HD720"
 
   },
-  {
-    "category": "film",
-    "artist": "The Condemned",
-    "title": "Editor",
-    "modalId": 31,
-    "img": "the_condemned.png",
-    "link": "https://www.youtube.com/embed/7ULZaG9O338?VQ=HD720"
-  },
-  {
-    "category": "film",
-    "artist": "48 Hours",
-    "title": "Producer/Editor",
-    "modalId": 32,
-    "img": "perilous_journey.png",
-    "link": "https://www.youtube.com/embed/uXG83ma3bCQ?VQ=HD720"
-  },
-  {
-    "category": "film",
-    "artist": "As Far As The Eye Can See",
-    "title": "Director",
-    "modalId": 33,
-    "img": "as_far.png",
-    "link": "https://player.vimeo.com/video/147205302?title=0&byline=0&portrait=0"
-  },
-  {
-    "category": "film",
-    "artist": "Anybody",
-    "title": "Director",
-    "modalId": 34,
-    "img": "anybody.png",
-    "link": "https://player.vimeo.com/video/79636907?title=0&byline=0&portrait=0"
-  }]
+  ]
   });

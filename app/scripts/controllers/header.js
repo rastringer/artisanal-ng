@@ -6,10 +6,10 @@
  * @description
  * # HeaderctrlCtrl
  * Controller of the artisanalTelevisionApp
- */
+ // */
 angular.module('artisanalTelevisionApp')
 .run(['$anchorScroll', function($anchorScroll) {
-  $anchorScroll.yOffset = 50;   // always scroll by 50 extra pixels
+  $anchorScroll.yOffset = 120;   // always scroll by 50 extra pixels
 }])
   .controller('HeaderCtrl', ['$anchorScroll', "$location", "$scope",
     function ($anchorScroll, $location, $scope) {

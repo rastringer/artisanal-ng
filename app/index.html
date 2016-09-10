@@ -22,7 +22,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="">
+      <a class="navbar-brand" data-toggle="collapse" data-target=".navbar-collapse.in" href="/">
         <img alt="Brand" class="img-responsive" src="images/logo6.png">
       </a>
     </div> <!-- end header div -->
@@ -30,11 +30,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-left" ng-controller="HeaderCtrl">
-        <li><a  data-toggle="collapse" data-target=".navbar-collapse.in" href="/">All Videos</a></li>
-        <li><a data-toggle="collapse" data-target=".navbar-collapse" href"" ng-click="gotoReels(category)">Reels</a></li>
+        <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="/">All Videos</a></li>
+        <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="/">Reels</a></li>
         <li><a data-toggle="collapse" data-target=".navbar-collapse" href"" ng-click="gotoFilm(category)">Film</a></li>
         <li><a data-toggle="collapse" data-target=".navbar-collapse" href"" ng-click="gotoMusic(category)">Music</a></li>
         <li><a data-toggle="collapse" data-target=".navbar-collapse" href"" ng-click="gotoCommercial(category)">Commercial</a></li>
+        <li><a data-toggle="collapse" data-target=".navbar-collapse" href"" ng-click="gotoHire(category)">Work for Hire</a></li>
         <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="about">About</a></li>
       </ul>
     </div> <!-- end navbar-collapse -->
@@ -52,16 +53,16 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-2 col-xs-offset-1">
-          <li><a href="https://twitter.com/artisanaltv"><img src="images/twitter35.jpg"></a></li>
+          <li><a target="_blank" href="https://twitter.com/artisanaltv"><img src="images/twitter35.jpg"></a></li>
         </div>
         <div class="col-xs-2">
-          <li><a href="http://www.imdb.com/name/nm1223853/?ref_=fn_al_nm_2"><img src="images/imdb35.jpg"></a></li>
+          <li><a target="_blank" href="http://www.imdb.com/name/nm1223853/?ref_=fn_al_nm_2"><img src="images/imdb35.jpg"></a></li>
         </div>
         <div class="col-xs-2">
-          <li><a href='https://vimeo.com/user6023393'><img src="images/vimeo35.jpg"></a></li>
+          <li><a target="_blank" href='https://vimeo.com/user6023393'><img src="images/vimeo35.jpg"></a></li>
         </div>
         <div class="col-xs-2">
-          <li><a href='https://www.youtube.com/channel/UC6tBbB62R1_UcDIHNEIjUtw'><img src="images/youtube35.jpg"></a></li>
+          <li><a target="_blank" href='https://www.youtube.com/channel/UC6tBbB62R1_UcDIHNEIjUtw'><img src="images/youtube35.jpg"></a></li>
         </div>
         <div class="col-xs-2">
           <li><a href="mailto:davidnjfranklinATgmailDOTcom"

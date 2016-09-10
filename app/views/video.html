@@ -11,11 +11,11 @@
                 <img id="{{videoItem.category}}" class="videoItem_image" ng-src="images/{{videoItem.img}}">
                 <!-- Captions for artist/title -->
                 <div class="caption post-content">
-	          			<p>{{videoItem.artist}}</p>
-	            		<p>{{videoItem.title}}</p>
+	          			<p id="artist">{{videoItem.artist}}</p>
+	            		<p id="title">{{videoItem.title}}</p>
                   <!-- Modal links to bind modal Id -->
 	                	<a href="#" data-toggle="modal" data-target="#videoModal{{videoItem.modalId}}" class="btn btn-danger" rel="tooltip" data-theVideo={{videoItem.link}}>
-                    <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-play center-block" aria-hidden="true"></span>
                     </a>
 	          		</div>
               </div>
