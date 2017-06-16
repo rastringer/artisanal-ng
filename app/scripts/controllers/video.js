@@ -41,7 +41,7 @@ angular.module('artisanalTelevisionApp')
     "title": "Editor",
     "modalId": 31,
     "img": "the_condemned.png",
-    "link": "https://www.youtube.com/embed/7ULZaG9O338?VQ=HD720"
+    "link": "https://www.youtube.com/embed/wyZbDln3mbM?ecver=1"
   },
   {
     "category": "film",
@@ -49,7 +49,7 @@ angular.module('artisanalTelevisionApp')
     "title": "Director",
     "modalId": 33,
     "img": "as_far.png",
-    "link": "https://player.vimeo.com/video/147205302?title=0&byline=0&portrait=0"
+    "link": "https://player.vimeo.com/video/219143563?title=0&byline=0&portrait=0"
   },
   {
     "category": "film",
